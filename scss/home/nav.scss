@@ -1,0 +1,115 @@
+.indexnav {
+  @media only screen and (min-width: 950px) {
+    nav {
+      max-width: 980px;
+      height: 60px;
+      margin: 20px auto 0 auto;
+      //background-color: cadetblue;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: $white solid 2px;
+      padding-left: 1%;
+
+      .logo {
+        width: 92px;
+        height: 42px;
+        width: 92px;
+        height: 42px;
+        //background-color: brown;
+        background-image: url(../images/logo/logo-white.png);
+      }
+
+      .links {
+        width: 392px;
+        height: 42px;
+        //background-color: brown;
+        display: flex;
+        justify-content: space-evenly;
+        align-self: center;
+        align-items: center;
+        a {
+          text-decoration: none;
+          color: $white;
+          font-size: 15px;
+          font-family: GillSans;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 950px) {
+    nav {
+      max-width: 980px;
+      height: 60px;
+      margin: 20px auto 0 auto;
+      //background-color: cadetblue;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: $white solid 2px;
+      padding-left: 1%;
+
+      .logo {
+        width: 92px;
+        height: 42px;
+        width: 92px;
+        height: 42px;
+        //background-color: brown;
+        background-image: url(../images/logo/logo-white.png);
+      }
+
+      .links {
+        width: 392px;
+        height: 42px;
+        //background-color: brown;
+        display: flex;
+        justify-content: space-evenly;
+        align-self: center;
+        align-items: center;
+        a {
+          text-decoration: none;
+          color: $white;
+          font-size: 15px;
+          font-family: GillSans;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 690px) {
+    nav {
+      max-width: 980px;
+      height: 60px;
+      margin: 20px auto 0 auto;
+      //background-color: cadetblue;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: $white solid 2px;
+      padding-left: 1%;
+
+      .logo {
+        width: 92px;
+        height: 42px;
+        width: 92px;
+        height: 42px;
+        //background-color: brown;
+        background-image: url(../images/logo/logo-white.png);
+      }
+
+      .links {
+        width: 392px;
+        height: 42px;
+        //background-color: brown;
+        display: flex;
+        justify-content: space-evenly;
+        align-self: center;
+        align-items: center;
+        a {
+          text-decoration: none;
+          color: $white;
+          font-size: 15px;
+          font-family: GillSans;
+        }
+      }
+    }
+  }
+}
